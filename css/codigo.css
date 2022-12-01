@@ -1,0 +1,337 @@
+*{
+    list-style: none;
+    font-style: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    height: 1300px;
+    background-color: blanchedalmond;
+    position: relative;
+    padding-bottom: 3rem;
+}
+
+
+/*
+header
+*/
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(227, 227, 224);
+    padding: 10px;
+    margin-bottom: 0;
+    
+}
+
+.titulo{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.barra{
+    text-decoration: none;
+    gap: 15px;
+    color: darksalmon;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav a{
+    font-weight: 600;
+    padding-right: 30px;
+}
+
+
+#logo{
+    display: grid;
+    grid-template-columns: 70px 0px 0px;
+    font-size: 30px;
+    padding-left: 60px;
+}
+
+#logo2{
+    display: grid;
+    grid-template-columns: 0px 70px;
+    font-size: 30px;
+    padding-left: 35px;
+}
+
+#logo3{
+    display: grid;
+    grid-template-columns: 0px 0px 70px;
+    font-size: 30px;
+    padding-left: 77px;
+}
+
+.segundo{
+    background-color:rgb(235, 199, 199);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 200px;
+    font-size: 30px;
+    padding: 30px;
+    padding-left: 60px;
+
+    
+}
+
+
+.subtitulo{
+    font-size: 25px;
+}
+
+
+.texto{
+    font-size: 20px;
+}
+
+/*
+footer
+*/
+
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    
+}
+.pie-pagina{
+    background-color:rgb(121, 116, 116);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 200px;
+    font-size: 30px;
+    padding: 30px;
+    padding-left: 60px;
+    top: -0px;
+}
+
+
+#pie1{
+    display: inline-block;
+    font-size: 30px;
+    
+}
+
+#pie2{
+    display: inline-block;
+    font-size: 30px;
+    
+}
+
+#pie3{
+    display: inline-block;
+    font-size: 30px;
+
+
+    
+}
+
+
+
+
+.imagen{
+    height: 70px;
+    width: 80px;
+    
+}
+
+/*
+cosas dentro de la pagina
+*/
+.tercer-titulo{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+}
+
+
+.productos{
+    padding-left: 190px;
+}
+
+.parrafo{
+    padding: 20px;
+    padding-left: 30px;
+}
+
+.container{
+    position: relative;
+    width: 1200px;
+    height: 500px;
+    margin: 240 auto;
+    
+}
+
+.container .box{
+    position: relative;
+    width: calc(300px - 20px);
+    height: calc(300px - 30px);
+    background: darkkhaki;
+    float: left;
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    border-radius: 10px;
+    background: black;
+}
+
+
+.dentro{
+    height: 269px;
+    width: 280px;
+    
+}
+
+.muestras{
+    display: grid;
+    justify-content: center;
+    padding-left: 250px;
+    
+}
+
+*, :after, :before {
+    box-sizing: inherit;
+}
+
+
+/*
+contacto
+
+
+*/
+
+
+.controls{
+    width: 100%;
+    border: 1px solid #017bab;
+    margin-bottom: 15px;
+    padding: 11px 10px;
+    background: #252323;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+}
+.wrap h3{
+    margin: 0;
+    text-align: center;
+    height: 40px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid;
+    font-size: 20px;
+
+}
+.wrap{
+    width: 100%;
+    max-width: 500px;
+    padding: 40px;
+    margin: auto;
+    background: #4e4d4d;
+    box-shadow: 7px 13px 37px #000;
+}
+
+.formulario{
+    width: 100%;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.form-control{
+    width: 100%;
+    margin: auto;
+}
+
+
+.button{
+    border-bottom: 1px solid;
+}
+
+
+.boton{
+    width: 100%;
+    height: 40px;
+    background: #017bab;
+    border: none;
+    color: white;
+    margin-bottom: 16px;
+    font-size: 20px;
+}
+
+
+/*
+nosotros
+*/
+
+
+
+/*
+productos
+
+
+*/
+
+
+.tamaño-imagen{
+    height: 450px;
+    width: 300px;
+    border: solid 2px black;
+    text-align: center;
+    background-color: blueviolet;
+    font-size: 1.8rem;
+    transition-duration:2s;
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+    animation: texto-movimiento;
+    animation-duration: 5s;
+}
+
+.remera{
+    display: inline-flex;
+}
+
+.parrafo{
+}
+
+
+
+
+
+/*
+sucursales
+
+
+        <div class="box">
+          <img src="../img/remera_manga_larga.webp" class="tamaño-imagen">
+          <div class="hover">
+            <h3>Remera-Larga</h3>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="../img/buzo.jpg" class="tamaño-imagen">
+          <div class="hover">
+            <h3>Buzo</h3>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="../img/buso_sin_cuello.webp" class="tamaño-imagen">
+          <div class="hover">
+            <h3>Buzo sin cuello</h3>
+          </div>
+        </div>
+  
+
+
+*/
